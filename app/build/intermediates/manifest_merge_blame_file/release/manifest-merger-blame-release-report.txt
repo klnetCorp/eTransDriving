@@ -1,0 +1,581 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="kr.co.klnet.aos.etransdriving"
+5    android:versionCode="46"
+6    android:versionName="1.82.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="20"
+9-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:7:5-40
+12-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:7:18-37
+13
+14    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+14-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:9:5-75
+14-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:9:22-72
+15    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+15-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:10:5-75
+15-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:11:5-67
+16-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:12:5-79
+17-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+18-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:13:5-79
+18-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:14:5-76
+19-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:14:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+20-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:15:5-76
+20-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:16:5-65
+21-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:16:22-62
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:17:5-66
+22-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:17:22-63
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:18:5-68
+23-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:18:22-65
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:19:5-82
+24-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:19:22-78
+25    <uses-permission
+25-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:20:5-102
+26        android:name="android.permission.READ_PHONE_STATE"
+26-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:20:22-72
+27        android:maxSdkVersion="29" />
+27-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:20:73-99
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:21:5-78
+28-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:21:22-75
+29    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+29-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:22:5-71
+29-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:22:22-68
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:23:5-79
+30-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:23:22-76
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:24:5-81
+31-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:24:22-78
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:25:5-68
+32-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+33-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:26:5-74
+33-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:26:22-71
+34    <uses-permission android:name="android.permission.CALL_PHONE" />
+34-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:27:5-69
+34-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:27:22-66
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:28:5-77
+35-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:28:22-74
+36    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+36-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:29:5-85
+36-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:29:22-82
+37    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+38    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+38-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:31:5-77
+38-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:31:22-74
+39    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:32:5-80
+39-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:32:22-77
+40
+41    <uses-feature
+41-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:34:5-35:35
+42        android:name="android.hardware.camera"
+42-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:34:19-57
+43        android:required="true" />
+43-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:35:9-32
+44    <uses-feature android:name="android.hardware.camera.autofocus" />
+44-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:37:5-70
+44-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:37:19-67
+45    <uses-feature
+45-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/32be951258b664d265f610068734a28b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+46        android:glEsVersion="0x00020000"
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/32be951258b664d265f610068734a28b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+47        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/32be951258b664d265f610068734a28b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+48    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+48-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:26:5-82
+48-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:26:22-79
+49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+49-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:22-107
+50
+51    <application
+51-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:41:5-183:19
+52        android:name="kr.co.klnet.aos.etransdriving.EtransDrivingApp"
+52-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:52:9-41
+53        android:allowBackup="false"
+53-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:42:9-36
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.1.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a6efa5b359cd11d08de80aeb7429190a/core-1.1.0/AndroidManifest.xml:24:18-86
+55        android:fullBackupContent="false"
+55-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:44:9-42
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:49:6-40
+57        android:label="@string/app_name"
+57-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:50:9-41
+58        android:largeHeap="true"
+58-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:47:9-33
+59        android:requestLegacyExternalStorage="true"
+59-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:46:9-52
+60        android:supportsRtl="true"
+60-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:51:9-35
+61        android:testOnly="false"
+61-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:48:9-33
+62        android:theme="@style/AppTheme"
+62-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:53:9-40
+63        android:usesCleartextTraffic="true" >
+63-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:45:9-44
+64        <uses-library
+64-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:55:9-123
+65            android:name="org.apache.http.legacy"
+65-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:55:23-60
+66            android:required="false" />
+66-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:55:61-85
+67
+68        <activity
+68-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:57:9-85:20
+69            android:name="kr.co.klnet.aos.etransdriving.MainActivity"
+69-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:58:13-41
+70            android:launchMode="singleTask"
+70-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:60:13-44
+71            android:screenOrientation="portrait"
+71-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:59:13-49
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+72-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:62:13-69
+73            android:windowSoftInputMode="adjustResize" >
+73-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:61:13-55
+74            <intent-filter>
+74-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:63:13-67:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:64:17-69
+75-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:64:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:17-76
+77-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:27-73
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:66:17-77
+78-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:66:27-74
+79            </intent-filter>
+80            <intent-filter>
+80-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:69:13-75:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:70:17-69
+81-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:70:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:17-76
+83-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:72:17-78
+84-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:72:27-75
+85
+86                <data
+86-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:17-77
+87                    android:host="action"
+87-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:23-44
+88                    android:scheme="etrandriving" />
+88-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:45-74
+89            </intent-filter>
+90            <!--
+91            <intent-filter>
+92                <action android:name="android.intent.action.VIEW" />
+93                <category android:name="android.intent.category.DEFAULT" />
+94                <category android:name="android.intent.category.BROWSABLE" />
+95                <data android:scheme="@string/kakao_scheme" android:host="@string/kakaolink_host"/>
+96            </intent-filter>
+97            -->
+98
+99        </activity>
+100        <activity
+100-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:87:9-96:20
+101            android:name="kr.co.klnet.aos.etransdriving.CameraFrameActivity"
+101-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:87:19-54
+102            android:screenOrientation="portrait"
+102-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:88:13-49
+103            android:theme="@style/AppTheme.NoActionBar" >
+103-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:89:13-56
+104            <meta-data
+104-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:90:13-92:78
+105                android:name="android.support.PARENT_ACTIVITY"
+105-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:91:17-63
+106                android:value="kr.co.klnet.aos.etransdriving.MainActivity" />
+106-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:92:17-75
+107
+108            <intent-filter>
+108-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:93:13-95:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:64:17-69
+109-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:64:25-66
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:98:9-104:20
+113            android:name="kr.co.klnet.aos.etransdriving.PopWebViewActivity"
+113-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:99:13-47
+114            android:configChanges="keyboardHidden|orientation|screenSize"
+114-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:101:13-74
+115            android:screenOrientation="sensor"
+115-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:102:13-47
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+116-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:100:13-69
+117            android:windowSoftInputMode="stateAlwaysHidden" >
+117-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:103:13-60
+118        </activity>
+119        <activity
+119-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:106:9-119:20
+120            android:name="kr.co.klnet.aos.etransdriving.WebViewContainer"
+120-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:107:13-45
+121            android:screenOrientation="portrait"
+121-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:108:13-49
+122            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+122-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:110:13-69
+123            android:windowSoftInputMode="adjustResize" >
+123-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:109:13-55
+124            <intent-filter>
+124-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:111:13-118:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:70:17-69
+125-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:70:25-66
+126
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:72:17-78
+127-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:72:27-75
+128
+129                <data
+129-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:17-77
+130                    android:host="webview"
+130-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:23-44
+131                    android:scheme="etruck" />
+131-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:74:45-74
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:120:9-128:20
+135            android:name="kr.co.klnet.aos.etransdriving.PushActivity"
+135-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:121:13-41
+136            android:theme="@android:style/Theme.Translucent" >
+136-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:122:13-61
+137            <intent-filter>
+137-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:123:13-127:29
+138                <action android:name="PUSH_ACTIVITY" />
+138-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:124:17-56
+138-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:124:25-53
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:17-76
+140-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:65:27-73
+141            </intent-filter>
+142        </activity>
+143
+144        <provider
+145            android:name="androidx.core.content.FileProvider"
+145-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:131:13-62
+146            android:authorities="kr.co.klnet.aos.etransdriving.provider"
+146-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:132:13-60
+147            android:exported="false"
+147-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:133:13-37
+148            android:grantUriPermissions="true" >
+148-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:134:13-47
+149            <meta-data
+149-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:135:13-137:57
+150                android:name="android.support.FILE_PROVIDER_PATHS"
+150-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:136:17-67
+151                android:resource="@xml/provider_paths" />
+151-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:137:17-55
+152        </provider>
+153
+154        <service
+154-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:140:9-147:19
+155            android:name="kr.co.juis.fcm.JuisFirebaseMessagingService"
+155-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:141:13-71
+156            android:enabled="true"
+156-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:142:13-35
+157            android:exported="true" >
+157-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:143:13-36
+158            <intent-filter>
+158-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:144:13-146:29
+159                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+159-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:145:17-78
+159-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:145:25-75
+160            </intent-filter>
+161        </service>
+162
+163        <meta-data
+163-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:149:9-151:68
+164            android:name="com.google.firebase.messaging.default_notification_icon"
+164-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:150:13-83
+165            android:resource="@drawable/ic_stat_ic_notification" />
+165-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:151:13-65
+166        <meta-data
+166-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:152:9-154:53
+167            android:name="com.google.firebase.messaging.default_notification_color"
+167-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:153:13-84
+168            android:resource="@color/colorAccent" />
+168-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:154:13-50
+169        <meta-data
+169-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:155:9-157:71
+170            android:name="com.google.firebase.messaging.default_notification_channel_id"
+170-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:156:13-89
+171            android:value="@string/default_notification_channel_id" />
+171-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:157:13-68
+172        <meta-data
+172-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:159:9-161:53
+173            android:name="com.kakao.sdk.AppKey"
+173-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:160:13-48
+174            android:value="@string/kakao_app_key" />
+174-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:161:13-50
+175
+176        <!-- 위치관제 Service -->
+177        <service
+177-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:164:9-167:56
+178            android:name="kr.co.klnet.aos.etransdriving.trans.gps.push.PeriodReportService"
+178-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:166:13-92
+179            android:foregroundServiceType="location"
+179-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:165:13-53
+180            android:label="@string/lbs_service_name" />
+180-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:167:13-53
+181
+182        <!-- Push Message -->
+183        <receiver android:name="kr.co.klnet.aos.etransdriving.trans.gps.push.UIBroadCastReceiver" >
+183-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:170:9-182:20
+183-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:170:19-98
+184            <intent-filter>
+184-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:171:13-181:29
+185                <action android:name="android.intent.action.BOOT_COMPLETED" />
+185-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:172:17-79
+185-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:172:25-76
+186                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS" />
+186-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:173:17-85
+186-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:173:25-82
+187                <action android:name="android.intent.action.USER_PRESENT" />
+187-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:174:17-77
+187-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:174:25-74
+188                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+188-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:175:17-87
+188-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:175:25-84
+189                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+189-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:176:17-90
+189-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:176:25-87
+190                <action android:name="android.intent.action.AIRPLANE_MODE" />
+190-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:177:17-78
+190-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:177:25-75
+191                <action android:name="kr.co.klnet.aos.etransdriving.notibar.refresh" />
+191-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:178:17-88
+191-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:178:25-85
+192                <action android:name="com.ssomon.lib.services.cmd.noti_push" />
+192-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:179:17-80
+192-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:179:25-77
+193                <action android:name="kr.co.klnet.aos.etransdriving.start_report_service" />
+193-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:180:17-93
+193-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:180:25-90
+194            </intent-filter>
+195        </receiver>
+196
+197        <meta-data
+197-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:12:9-14:38
+198            android:name="ignore"
+198-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:13:13-34
+199            android:value="ignore" />
+199-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:14:13-35
+200
+201        <activity
+201-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:16:9-18:62
+202            android:name="pl.brightinventions.slf4android.NotifyDeveloperDialogDisplayActivity"
+202-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:17:13-96
+203            android:theme="@android:style/Theme.NoDisplay" />
+203-->[com.github.bright:slf4android:0.1.5] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/d9c5ef449f8e923c09f06a8fbd8c114f/jetified-slf4android-0.1.5/AndroidManifest.xml:18:13-59
+204        <!--
+205             FirebaseMessagingService performs security checks at runtime,
+206             but set to not exported to explicitly avoid allowing another app to call it.
+207        -->
+208        <service
+208-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:28:9-35:19
+209            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+209-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:29:13-82
+210            android:directBootAware="true"
+210-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:30:13-43
+211            android:exported="false" >
+211-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:31:13-37
+212            <intent-filter android:priority="-500" >
+212-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:144:13-146:29
+213                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+213-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:145:17-78
+213-->/Users/ebiz/Desktop/workspace/이트랜스 드라이빙/이트랜스드라이빙_AOS/eTransDrivingAOS.220604/app/src/main/AndroidManifest.xml:145:25-75
+214            </intent-filter>
+215        </service>
+216        <service
+216-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:36:9-42:19
+217            android:name="com.google.firebase.components.ComponentDiscoveryService"
+217-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:37:13-84
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+219            android:exported="false" >
+219-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:38:13-37
+220            <meta-data
+220-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:39:13-41:85
+221                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+221-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:40:17-119
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-messaging:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/bd9e54009a6821124928193f4ef305ca/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:41:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-crashlytics:17.0.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/77bdb611454fd4da6bcb6ada67df68c2/jetified-firebase-crashlytics-17.0.1/AndroidManifest.xml:16:13-18:85
+224                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+224-->[com.google.firebase:firebase-crashlytics:17.0.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/77bdb611454fd4da6bcb6ada67df68c2/jetified-firebase-crashlytics-17.0.1/AndroidManifest.xml:17:17-115
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-crashlytics:17.0.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/77bdb611454fd4da6bcb6ada67df68c2/jetified-firebase-crashlytics-17.0.1/AndroidManifest.xml:18:17-82
+226            <meta-data
+226-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b33b5f5016612a79419ad1fbb88eeb73/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:30:13-32:85
+227                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+227-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b33b5f5016612a79419ad1fbb88eeb73/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:31:17-139
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b33b5f5016612a79419ad1fbb88eeb73/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:32:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:32:13-34:85
+230                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+230-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:33:17-96
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:34:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/533be29ad906239050dee86656cc651e/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+233                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+233-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/533be29ad906239050dee86656cc651e/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/533be29ad906239050dee86656cc651e/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-installations:16.3.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b1d6fcaf732a9d374eb165cd28ac0be8/jetified-firebase-installations-16.3.1/AndroidManifest.xml:17:13-19:85
+236                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+236-->[com.google.firebase:firebase-installations:16.3.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b1d6fcaf732a9d374eb165cd28ac0be8/jetified-firebase-installations-16.3.1/AndroidManifest.xml:18:17-127
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-installations:16.3.1] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/b1d6fcaf732a9d374eb165cd28ac0be8/jetified-firebase-installations-16.3.1/AndroidManifest.xml:19:17-82
+238        </service>
+239
+240        <activity
+240-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:12:9-18:20
+241            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+241-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:13:13-72
+242            android:configChanges="orientation|screenSize"
+242-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:14:13-59
+243            android:launchMode="singleTop"
+243-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:15:13-43
+244            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+244-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:16:13-72
+245            android:windowSoftInputMode="adjustResize" >
+245-->[com.kakao.sdk:kakaonavi:1.6.2] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml:17:13-55
+246        </activity>
+247
+248        <receiver
+248-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:37:9-44:20
+249            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+249-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:38:13-78
+250            android:exported="true"
+250-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:39:13-36
+251            android:permission="com.google.android.c2dm.permission.SEND" >
+251-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:40:13-73
+252            <intent-filter>
+252-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:41:13-43:29
+253                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+253-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:17-81
+253-->[com.google.firebase:firebase-iid:20.2.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/f67080bf4b4044c6a02216c3bb5c9029/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:25-78
+254            </intent-filter>
+255        </receiver>
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:29:9-33:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+257-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:30:13-85
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:31:13-35
+259            android:exported="false" >
+259-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:32:13-37
+260        </receiver>
+261
+262        <service
+262-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:35:9-38:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:36:13-84
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:37:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:38:13-37
+266        <service
+266-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:39:9-43:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:40:13-87
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:41:13-35
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:42:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" />
+270-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/8c9828ca75015702b4813754608e86f5/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:43:13-69
+271
+272        <provider
+272-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+273            android:name="com.google.firebase.provider.FirebaseInitProvider"
+273-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+274            android:authorities="kr.co.klnet.aos.etransdriving.firebaseinitprovider"
+274-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+275            android:exported="false"
+275-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+276            android:initOrder="100" />
+276-->[com.google.firebase:firebase-common:19.3.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/067c824962fae231d76aa2616aadeacf/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+277
+278        <activity
+278-->[com.google.android.gms:play-services-base:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/eb951b0a1e4e63f8685ef89de2f32e67/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+279            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+279-->[com.google.android.gms:play-services-base:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/eb951b0a1e4e63f8685ef89de2f32e67/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+280            android:exported="false"
+280-->[com.google.android.gms:play-services-base:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/eb951b0a1e4e63f8685ef89de2f32e67/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+281            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+281-->[com.google.android.gms:play-services-base:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/eb951b0a1e4e63f8685ef89de2f32e67/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+282
+283        <meta-data
+283-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/23d47eca74af73b3ebb3884468dabf86/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+284            android:name="com.google.android.gms.version"
+284-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/23d47eca74af73b3ebb3884468dabf86/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+285            android:value="@integer/google_play_services_version" />
+285-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/23d47eca74af73b3ebb3884468dabf86/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+286
+287        <service
+287-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:29:9-35:19
+288            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+288-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:30:13-103
+289            android:exported="false" >
+289-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:31:13-37
+290            <meta-data
+290-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:32:13-34:39
+291                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+291-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:33:17-94
+292                android:value="cct" />
+292-->[com.google.android.datatransport:transport-backend-cct:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/a5790379145862601dd0ff06d5eae675/jetified-transport-backend-cct-2.2.3/AndroidManifest.xml:34:17-36
+293        </service>
+294        <service
+294-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+295            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+295-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+296            android:exported="false"
+296-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+297            android:permission="android.permission.BIND_JOB_SERVICE" >
+297-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+298        </service>
+299
+300        <receiver
+300-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+301            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+301-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+302            android:exported="false" />
+302-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/ebiz/.gradle/caches/transforms-2/files-2.1/3e3cd30f32cc1446c7a855b4e5bbc89b/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+303    </application>
+304
+305</manifest>

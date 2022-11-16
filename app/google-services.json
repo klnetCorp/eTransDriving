@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95736177614",
+    "firebase_url": "https://etransdriving-app.firebaseio.com",
+    "project_id": "etransdriving-app",
+    "storage_bucket": "etransdriving-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95736177614:android:7e0b67e35b898593b0819f",
+        "android_client_info": {
+          "package_name": "kr.co.klnet.aos.etransdriving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95736177614-14f9abpfb8jfpd1ad8f9ih85e3sd6lbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhXSd7Zf7C8EB3Td3pRwcrhI7_CRv6jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95736177614-14f9abpfb8jfpd1ad8f9ih85e3sd6lbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "95736177614-knpttoegrag3emnq35lapc3b5osep6de.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.co.klnet.ios.etransdriving"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

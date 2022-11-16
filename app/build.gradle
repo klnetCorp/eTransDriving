@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.gms.google-services'
+googleServices { disableVersionCheck = true }
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "kr.co.klnet.aos.etransdriving"
+        minSdkVersion 20
+        targetSdkVersion 30
+        versionCode 46
+        versionName "1.82.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        debug {
+//            firebaseCrashlytics {
+//                // If you don't need crash reporting for your debug build,
+//                // you can speed up your build by disabling mapping file uploading.
+//                mappingFileUploadEnabled false
+//            }
+        }
+
+        release {
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-google-api-client.txt'
+            minifyEnabled true
+            shrinkResources true
+            // When minifyEnabled is set to true, Crashlytics automatically
+            // uploads mapping files because the plugin detects that obfuscation
+            // is enabled. mappingFileUploadEnabled defaults to true if
+            // minifyEnabled is true.
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    configurations {
+        all {
+            exclude module: 'httpclient'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'com.google.android.material:material:1.7.0'
+
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    implementation 'com.google.api-client:google-api-client-android:1.30.9'
+    implementation 'com.google.http-client:google-http-client-gson:1.35.0'
+    implementation 'com.google.apis:google-api-services-vision:v1-rev451-1.25.0'
+
+    implementation 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-messaging:23.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'org.jsoup:jsoup:1.8.3'
+    implementation 'com.google.firebase:firebase-crashlytics:18.3.2'
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.android.volley:volley:1.2.1'
+
+//    compile group: project.KAKAO_SDK_GROUP, name: 'kakaolink', version: project.KAKAO_SDK_VERSION
+//    // 카카오내비 sdk를 사용하기 위해 필요.
+//    compile group: project.KAKAO_SDK_GROUP, name: 'kakaonavi', version: project.KAKAO_SDK_VERSION
+//    //compile 'commons-codec:commons-codec:1.5'
+    implementation group: project.KAKAO_SDK_GROUP, name: 'kakaolink', version: project.KAKAO_SDK_VERSION
+    implementation group: project.KAKAO_SDK_GROUP, name: 'kakaonavi', version: project.KAKAO_SDK_VERSION
+    //implementation files('libs/com.skt.Tmap_1.52.jar')
+    implementation files('libs/com.skt.Tmap_1.67.jar')
+
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation files('libs/minewBeaconScan.jar')
+
+    implementation('com.github.bright:slf4android:0.1.5'){
+        transitive = true
+    }
+}
+
+

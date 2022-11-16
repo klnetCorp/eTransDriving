@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">이트랜스\n드라이빙</string>
+    <string name="consent">[이트랜스드라이빙]에서 위치정보를 사용할 수 있도록 허용 하시겠습니까?\n관련 약관을 확인하세요.</string>
+    <string name="dummy_button">Intro Button</string>
+    <string name="dummy_content">INTRO\nCONTENT</string>
+    <string name="title_activity_test_menu">Test Menu</string>
+
+    <!-- Preference Titles -->
+    <string name="cameras_header">Vision API Menus</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Vision API Preferences -->
+    <string name="detect_container_no_title">컨테이너 번호 촬영</string>
+    <string name="detect_seal_no_title">씰번호 번호 촬영</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- for crop image -->
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="intro_message">
+        <![CDATA[
+            This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+            you can display camera preview and take pictures.
+        ]]>
+    </string>
+
+    <!-- for cloud vision -->
+    <string name="action_settings">Settings</string>
+    <string name="image_details_header">원본:</string>
+    <string name="image_preview_header">미리보기:</string>
+    <string name="loading_message">전송 중입니다. 잠시만 기다려주세요.</string>
+    <string name="response_done">응답 완료</string>
+
+    <string name="dialog_select_prompt">Choose a picture</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+
+    <string name="gps_error">"GPS 오류"</string>
+    <string name="gps_error_popup">"GPS가 꺼져 있어 서비스를 할수 없습니다. 실행 하시겠습니까?"</string>
+    <string name="gps_activate">"GPS 실행"</string>
+    <string name="gps_deactivate">"GPS 미실행"</string>
+
+    <string name="strBluetoothError">"블루투스 오류"</string>
+    <string name="strBluetoothErrorPopUp">"블루투스가 꺼져 있어 서비스를 할수 없습니다. 블루투스를 실행 하시겠습니까?"</string>
+    <string name="strBluetoothActivate">"블루투스 실행"</string>
+    <string name="strBluetootCancel">"닫기"</string>
+
+    <string name="default_notification_channel_id" translatable="false">eTransDrving_ch_id</string>
+    <string name="default_notification_channel_name">eTransDrving</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID FCM Token: %s</string>
+    <string name="alert_msg_request_token" translatable="false">토큰을 얻어오는 도중에 오류가 발생했습니다. 잠시 후 다시 시도하여 주십시오.</string>
+    <string name="fcm_message">notification_title</string>
+
+
+    <string name="strServiceName">eTransDrivingService</string>
+    <string name="streTransDrivingServiceStarted">eTransDriving 서비스 진행중</string>
+    <string name="streTransDrivingServiceStopped">eTransDriving 서비스 중지</string>
+
+    <string name="strGpsTrackServiceStarted">eTransDriving GPS 전송 서비스 진행중</string>
+    <string name="strGpsTrackServiceStopped">eTransDriving GPS 전송 서비스 중지</string>
+
+    <!-- 네트워크 오류 -->
+    <string name="strNetworkError">"네트워크 오류"</string>
+    <string name="strNetworkErrorPopUp">"네트워크에 연결할 수 없습니다.\n네트워크 연결을 확인하세요."</string>
+
+    <string name="strLBSEngineIP">203.236.120.62</string>
+
+
+<!-- LBS 운영 서버 포트 (etruckbank)
+    <string name="strLBSEnginePort">14200</string>
+-->
+
+<!-- LBS 테스트 서버 포트 (smartest) -->
+    <!--기존 smart-->
+    <!--<string name="strLBSEnginePort">14300</string>-->
+    <!--변경(smart to mfedi change)-->
+<!--
+-->
+    <string name="strLBSEnginePort">14666</string>
+
+    <string name="lbs_service_name">eTransDrivingTraceService</string>
+</resources>

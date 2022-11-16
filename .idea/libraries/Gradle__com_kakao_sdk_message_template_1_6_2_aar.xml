@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:message-template:1.6.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88237fd4059685ee0ad1bb46f05df13d/jetified-message-template-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88237fd4059685ee0ad1bb46f05df13d/jetified-message-template-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88237fd4059685ee0ad1bb46f05df13d/jetified-message-template-1.6.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/message-template/1.6.2/8374332d88be36cd646ef1669ca3d38cce927f67/message-template-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

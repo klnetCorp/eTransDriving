@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- klnet
+    -->
+    <string name="kakao_app_key">22c8e6de79fe2b6d13670345f29dcaa4</string>
+    <string name="kakao_scheme">kakao22c8e6de79fe2b6d13670345f29dcaa4</string>
+
+    <!-- tom
+    <string name="kakao_app_key">fabb6fb5342045202d49fce6f44a7d67</string>
+    <string name="kakao_scheme">kakaofabb6fb5342045202d49fce6f44a7d67</string>
+    -->
+
+
+    <string name="kakaolink_host">kakaolink</string>
+</resources>

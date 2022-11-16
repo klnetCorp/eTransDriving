@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "kr.co.klnet.aos.etransdriving",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 46,
+      "versionName": "1.82.1",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

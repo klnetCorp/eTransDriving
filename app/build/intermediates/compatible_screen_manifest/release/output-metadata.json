@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "kr.co.klnet.aos.etransdriving",
+  "variantName": "release",
+  "elements": []
+}

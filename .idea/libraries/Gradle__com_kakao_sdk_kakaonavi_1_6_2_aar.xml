@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:kakaonavi:1.6.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/413408134c8d97914600fed6cff4bc38/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/413408134c8d97914600fed6cff4bc38/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/817b79ef829b62a87850e1e63a418a66/jetified-kakaonavi-1.6.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/817b79ef829b62a87850e1e63a418a66/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/817b79ef829b62a87850e1e63a418a66/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6027b98bcafb7ecdd94a310e8fc33ac6/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6027b98bcafb7ecdd94a310e8fc33ac6/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6027b98bcafb7ecdd94a310e8fc33ac6/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d46253bff3662c2b85385efeba52af4/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d46253bff3662c2b85385efeba52af4/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d46253bff3662c2b85385efeba52af4/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ec8706349a560a82bc3b132e306e96/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ec8706349a560a82bc3b132e306e96/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3ec8706349a560a82bc3b132e306e96/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3d24c462cdeb18abe2456da0d09d040/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3d24c462cdeb18abe2456da0d09d040/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3d24c462cdeb18abe2456da0d09d040/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4635aaef02454689138b59b8ee4052a5/jetified-kakaonavi-1.6.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4635aaef02454689138b59b8ee4052a5/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4635aaef02454689138b59b8ee4052a5/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06d0055f037f860f9e675354fc6ce94/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06d0055f037f860f9e675354fc6ce94/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a06d0055f037f860f9e675354fc6ce94/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f63a34a2097d3b9f196572f40ed103b/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0168343c17c778b754a74ecf805df219/jetified-kakaonavi-1.6.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0168343c17c778b754a74ecf805df219/jetified-kakaonavi-1.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0168343c17c778b754a74ecf805df219/jetified-kakaonavi-1.6.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/kakaonavi/1.6.2/2a916d2366e7235e7897edb63fab94e44d8a0970/kakaonavi-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

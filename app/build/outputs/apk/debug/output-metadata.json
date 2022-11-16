@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "kr.co.klnet.aos.etransdriving",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 46,
+      "versionName": "1.82.1",
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+>
+	<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone" android:src="@mipmap/pop_bg_01"/>
+			<RelativeLayout android:id="@+id/relativeLayout3" android:layout_width="wrap_content" android:layout_height="match_parent" android:background="@mipmap/pop_bg_02">
+				<LinearLayout android:id="@+id/linearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+					<ImageView android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@mipmap/icon_popup_title"/>
+					<TextView android:id="@+id/textView1" android:gravity="center_vertical|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="제목" android:textColor="#ffffff" android:textSize="20sp"/>
+				</LinearLayout>
+			</RelativeLayout>
+
+			<ListView android:id="@+id/listView1" android:layout_width="match_parent" android:layout_height="250dp" android:fadingEdge="none" android:background="@mipmap/pop_bg_03"/>
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical"
+			    android:maxEms="10"
+			    android:padding="20dp"
+			    android:text="@string/consent"
+			    android:scrollbarDefaultDelayBeforeFade="50000"
+			    android:fadingEdge="horizontal|vertical"
+			    android:textColor="#ffffff"
+			    android:textSize="17.3dp" android:background="@mipmap/pop_bg_03" android:scrollbars="vertical"/>
+
+			<LinearLayout
+			    android:id="@+id/linearLayout4"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" android:background="@mipmap/pop_bg_03" android:paddingLeft="20dp" android:paddingRight="20dp" android:visibility="gone" android:gravity="right">
+
+				<CheckBox
+				    android:id="@+id/chkBox"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="5dp"
+				    android:layout_marginBottom="5dp"
+				    android:button="@drawable/mob_checkbox_12"
+				    android:textColor="#ffffff"
+				    android:textColorHighlight="#ffffff"
+				    android:textSize="15dp"/>
+
+			</LinearLayout>
+
+			<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@mipmap/pop_bg_05">
+				<LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:paddingTop="10dp" android:paddingBottom="10dp">
+
+					<Button android:id="@+id/button1" android:layout_width="130dp" android:layout_height="wrap_content" android:text="확 인 " android:textSize="16.6sp" android:visibility="gone" android:background="@drawable/mob_btn_01"/>
+
+					<Button android:id="@+id/button2" android:layout_width="130dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="취 소 " android:textSize="16.6sp" android:visibility="gone" android:background="@drawable/mob_btn_01"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+				    android:id="@+id/linearLayout3"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:paddingBottom="10dp"
+				    android:paddingTop="10dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+
+				    <Button
+				        android:id="@+id/button3"
+				        android:layout_width="85dp"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/mob_btn_01"
+				        android:text="확 인 "
+				        android:textSize="15sp"
+				        android:visibility="gone"/>
+
+				    <Button
+				        android:id="@+id/button4"
+				        android:layout_width="85dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:background="@drawable/mob_btn_01"
+				        android:text="예 약 "
+				        android:textSize="15sp"
+				        android:visibility="gone"/>
+
+				    <Button
+				        android:id="@+id/button5"
+				        android:layout_width="85dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:background="@drawable/mob_btn_01"
+				        android:text="취 소 "
+				        android:textSize="15sp"
+				        android:visibility="gone"/>
+				</LinearLayout>
+
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

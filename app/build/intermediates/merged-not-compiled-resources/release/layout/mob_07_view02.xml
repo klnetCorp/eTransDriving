@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<RelativeLayout android:id="@+id/mob_07_view02_relativeLayout1" android:layout_width="match_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="50dp" android:background="@color/title_blue">
+			<LinearLayout android:id="@+id/linearLayout3" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<TextView android:id="@+id/textView1" android:gravity="center_vertical|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="서명 등록" android:textColor="#ffffff" android:textSize="20sp"/>
+			</LinearLayout>
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/relativeLayout2" android:gravity="center" android:layout_width="match_parent" android:layout_height="60dp" android:layout_alignParentBottom="true" android:background="@color/white">
+			<Button android:id="@+id/button1" android:layout_width="150dp" android:layout_height="wrap_content" android:text="지우기" android:textColor="#ffffff" android:textSize="16.6sp" android:onClick="onClickButton_03" android:background="@drawable/round_button_background"/>
+			<Button android:id="@+id/button2" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@id/button1" android:text="서명 완료 " android:textColor="#ffffff" android:textSize="16.6sp" android:onClick="onClickButton_04" android:background="@drawable/round_button_background"/>
+		</RelativeLayout>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+	<RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+		<LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+
+			<RelativeLayout android:id="@+id/relativeLayout3" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@mipmap/pop_bg_02">
+				<LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+					<ImageView android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@mipmap/icon_popup_title"/>
+					<TextView android:id="@+id/textTitle" android:gravity="center_vertical|center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="제목" android:textColor="#ffffff" android:textSize="20sp"/>
+				</LinearLayout>
+			</RelativeLayout>
+
+			<TextView
+			    android:id="@+id/textData"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@mipmap/pop_bg_03"
+			    android:focusable="false"
+			    android:gravity="center_vertical"
+			    android:maxEms="10"
+			    android:padding="20dp"
+			    android:password="false"
+			    android:text="@string/consent"
+			    android:textColor="#ffffff"
+			    android:textSize="25sp" android:scrollbars="vertical"/>
+
+			<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@mipmap/pop_bg_04">
+				<LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:paddingTop="10dp" android:paddingBottom="10dp">
+					<Button android:id="@+id/doOK" android:layout_width="130dp" android:layout_height="wrap_content" android:text="확 인 " android:textSize="16.6sp" android:background="@drawable/mob_btn_01"/>
+				</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

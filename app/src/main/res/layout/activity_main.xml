@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rel_wv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/iv_intro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/splash"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_debug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/clearDebugText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="로그지우기"
+            android:textColor="#ffffff"
+            android:textSize="16.6sp"
+            android:onClick="onClickButtonClearDebugText"
+            android:background="@drawable/round_button_background"/>
+
+        <TextView
+            android:id="@+id/tv_debug"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
