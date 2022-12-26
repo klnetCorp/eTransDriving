@@ -1,0 +1,4 @@
+Keystore: 
+Keystore password: 1q2w3e4r
+alias: Key0
+Key password: 1q2w3e4r
